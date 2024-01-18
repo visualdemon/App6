@@ -1,4 +1,4 @@
-resource "aws_db_instance" "default" {
+resource "aws_db_instance" "default" { 
 
   name                   = var.dbname
   engine                 = "mysql"
